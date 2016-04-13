@@ -1,8 +1,5 @@
-As an exercise, pick one of the gems listed above and research it;
-then, research some alternative gems, and pick the gem that you think
-is the next best alternative. How might you justify this choice of best
-alternative gem to a senior engineer on your team?
+As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team?
 
-```txt
-Your response here.
-```
+I chose to research [RSpec](https://www.ruby-toolbox.com/projects/rspec) and possible next-best alternatives. RSpec is matched approximately by [Minitest](https://www.ruby-toolbox.com/projects/minitest) in popularity according to The Ruby Toolbox's popularity measurement method. They are both followed by [test-unit](https://www.ruby-toolbox.com/projects/test-unit) in popularity.
+
+Why would we want to go with Minitest rather than RSpec, you ask? Development of both Rspec and Minitest seem to be active. Both projects have approximately the same number of issues, 10 and 11, respectively. Setting up and maintaining the configuration of Minitest should be simpler; in fact, Minitest is included as part of the standard library, meaning we don't have to install a gem ([brisruby](http://brisruby.org/rspec-vs-minitest-smackdown/)). By switching to Minitest, we'd no longer need to maintain the configurations and setup of RSpec, Factory Girl, and Capybara ([Sam Koblenski](http://sam-koblenski.blogspot.com/2014/06/rspec-or-minitest-how-does-one-choose.html)) We'd be able to use mocks and stubs ([Martin Fowler](http://www.martinfowler.com/bliki/TestDouble.html)) without any third-party gems. ([PLataformatec](http://blog.plataformatec.com.br/2015/05/nobody-told-me-minitest-was-this-fun/)). And since we're a Ruby shop, the behavior of Minitest will come more naturally to us with respect to scope, inheritence, etc., since Minitest's syntax is Ruby itself rather than being a domain-specific language like RSpec. ([TenderloveMaking](https://tenderlovemaking.com/2015/01/23/my-experience-with-minitest-and-rspec.html)). Finally, David Hansson, the creator of Ruby on Rails, doesn't like RSpec's output scheme, so why should we? ([Twitter](https://twitter.com/dhh/status/52807321499340800))
