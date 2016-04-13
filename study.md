@@ -4,5 +4,13 @@ is the next best alternative. How might you justify this choice of best
 alternative gem to a senior engineer on your team?
 
 ```txt
-Your response here.
+
+Two alternatives to the paperclip gem are Carrierwave and Refile.
+
+Carrierwave is an older gem with more downloads and more support, however the last commit was 2 years ago and dev activity is less active.
+
+Refile is a new gem but the dev community is more active and the last commmit was 1year ago.
+
+I would personally recommend Carrierwave over Refile just because it is more established and will therefore have more support.
+
 ```
