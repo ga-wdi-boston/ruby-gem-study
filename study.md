@@ -63,5 +63,16 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+resque:library for creating background jobs, placing those jobs on multiple queues, and processing them later.
+alternate gems:sidekiq, Delayed job.
+sidekiq has more downloads, updated more recently, has more updates, depends on less gems, has less issues open.
+Delayed job: depends on less gems,
+
+Dear senior engineer,
+
+we should use sidekiq instead of resque for the follwoing reasons.
+sidekiq is more popular than resque, is updated more frequently, depends on less gems and has less issues open.
+
+Your #1 Programmer,
+1337 David
 ```
