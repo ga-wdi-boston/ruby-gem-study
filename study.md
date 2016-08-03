@@ -63,5 +63,22 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Devise.
+  This is an authentication solution for Rails based on Warden, which is designed to provide a common authentication of multiple Ruby Rack web applications.  Rack is a interface that wraps HTTP client server requests into one arguement, which returns an array of status, headers, and body.  Warden works right after the Rack stack, where the request information is stored.  Warden verifies the identity of a loggin in user with a session string, where a disguised user id is stored.  Warden will then store authentication information and allow all downstream applications to share this single authentication object, as well as handling users that are not logged in.
+
+  Devise was created to allow users to quickly develop and application that uses authentication.  It creates all the code and routes required to create accounts, log in, log out.  Devise consists of 10 modules:
+  Database Authenticatable, which will store an encrypted password to authenticate a user.
+  Confirmable, that sends emails with confirmation instructions and cofirms that account exists during sign in.
+  Recoverabe resets the user password.
+  Registerable handles signing up users.
+  Rememberable manages generating and clearing tokens for remembering a user, which is stored as a cookie.
+  Trackable stores sign-in count, timestamps, and IP address.
+  Timeoutable will expire a session that has not been active within a period of time.
+  Validatable validates email and password data.
+  Lockable will lock an account after a specified number of failed attempts to gain access.
+
+  The best alternative is OmniAuth, designed to be as minimally impacting on a applications with multiple authentication providers.  Using OmniAuth, we have more options available with authentication providers, whereas with Devise, we would only be able to work under the Warden protocol.  OmniAuth can be connected to almost any system, and there are hundreds of providers (facebook, twitter) with which we can build a  developer strategy.  There is a OmniAuth::Form, which is a simple form builder that can be used to prompt the user for authentication information.  The main goal of all of this is to remove the need for a end user to have many different passwords for different providers; instead, they can authenticate through a facebook, twitter, etc account, and be authenticated for the website.
+  OmniAuth has made over 1100 commits and has been downloaded over 9.2 million times.  It's popular because of the ease with which any type of website can use authentication with major providers, such as facebook, Twitter, Dropbox, Amazon, Google, and hundreds more.
+
+
 ```
