@@ -64,4 +64,12 @@ As an exercise, pick one of the gems listed above and research it; then, researc
 
 ```txt
 Your response here.
+
+I researched paperclip. I found three alternatives to it: carrierwave, dragonfly,
+and refile. I would think that carrierwave is the best alterantive. Out of the
+three I found it has the most star gazers, watchers and contributers with higher
+numbers. The other two gems are relatively new, but the ratio of open to closed
+issues is much less favorable than that of carrierwave. It also has the most
+commit action out of the three. Both dragonfly and refile, show almost no
+commits in 2016. There are also several different spec files for tests.
 ```
