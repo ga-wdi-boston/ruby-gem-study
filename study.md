@@ -63,5 +63,40 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+
+Paperclip
+(https://github.com/thoughtbot/paperclip)
+
+Paperclip is well-documented ruby gem. Last commit was 10 days ago.
+
+It has over 11 million downloads on rubygems.org. The last version of Paperclip gem was posted on July 1, 2016.
+
+It is made by a company called thoughtbot. It is used for an easy file attachment.
+
+Paperclip doesn't have any file processing abilities. It is mostly used for building simple APIs because they don't need processing. If we want to add processing abilities, Paperclip immigrates with a program called ImageMagick. ImageMagick is a image processor. It can covert images format, from PNG to JPEG and so on. It can also resize images and return images in the same format. It also allows drawing on an image, watermarks etc.
+
+For example https://www.stockphoto.com/search/concept is one of the online gallery that isn't free. If we want to download an image that has a watermark on it, we can, but that isn't useful in case we want to use that image. If we buy an image, we can download a version without watermark. When someone upload an image, ImageMagick comes renders two images, and holds two different formats (with and without watermark) avaiable for download.
+
+We need to install ImageMagick separately.
+
+ImageMagick isn't always necessary. If we want only to upload an image and not to process it, ImageMagick isn't needed.
+
+
+
+An alternatives to Paperclip is CarrierWave (https://github.com/carrierwaveuploader/carrierwave).
+
+## Reasons for choosing CarrierWave over Paperclip
+
+CarrierWave compared to Paperclip has processing capabilities and let's you choose the order of processing files. Files can be processed with many different processors. Those processors are powerful.
+
+CarrierWave is also well documented and mainained gem. It has over 7 million downloads on rubygems.org
+
+
+Both Paperclip and CarrierWave have advantages and disadvantages. Even though some of the recent issues that have been reported on CarrierWave Github page are related to the capabilities regarding image validation, CarrerWave seems better option because it allows image/files processing as well as generating thumbs on uploads, adding a single string image attribute for referencing the uploaded images, supports various storage backends etc.
+
+There are other alternatives out there too. Dragonfly would be another alternative. 
+
+We should choose gems depending on our needs. For example, if we don't need to process files/images than Paperclip can be a good option too.
+
+
 ```
