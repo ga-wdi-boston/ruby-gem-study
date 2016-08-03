@@ -63,5 +63,9 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I find one called activerecord-sqlserver-adapter on the Ruby Toolbox, which is a database adapter. It has been downloaded more than 1 million times so it's popular. Besides, it is well documented and the code is rubyish. It has about 400 total issues and more than 95% of the issues has been solved.
+
+https://github.com/rails-sqlserver/activerecord-sqlserver-adapter
+
+http://www.justinweiss.com/articles/a-guide-to-choosing-the-best-gems-for-your-ruby-project/
 ```
