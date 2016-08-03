@@ -63,5 +63,13 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+In my readings I discovered that a lot of people prefer Authlogic over Devise. Both Gems help
+you easily set up an authentication process for your web app. Devise seems to be the newer, hotter
+choice for authentication but it appears that they have sacrificed the ease of customization. Authlogic
+has been around longer and is likely more stable because of that. If you want to have a user only need
+a username to sign in this appears easier to do with Authlogic, where Devise strongly would prefer
+you to use an e-mail address for signing in. Devise also seems to prefer users to sign up to use the app
+which doesn't seem to be the case for Authlogic, or it is at least easier to achieve this with Authlogic.
+Tried to do by best at comparing and contrasting but without having used either of these it is pretty
+much based on other people's opinions.
 ```
