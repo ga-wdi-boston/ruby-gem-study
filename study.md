@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose to research the devise gem.  The alternative gem that I found is one called sorcery, which is also a authentication library.  From doing research on the two, I've decided that devise would be a better choice.  Devise is not only very popular and well known; it's also updated regularly and maintained.  Sorcery is apparently not actively maintained (meaning the library isn't developed anymore than it is).  That being said, using a gem that isn't actively maintained, makes it harder to have it be optimized for better results, or fix any bugs easily.
 ```
