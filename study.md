@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I looked up Devise. It is an Auth gem and has many alternatives. I would use OmniAuth if I has to choose an alternative because it has been around as long as Devise and is still being updated regularly 
 ```
