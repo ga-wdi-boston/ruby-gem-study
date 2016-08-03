@@ -63,5 +63,10 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Clearance is an excellent alternative to Devise.
+While Devise is more popular, Clearance is just as well maintained and better
+suited for projects which only need straightforward and simple authentication,
+as opposed to Devise's bells and whistles. Clearance takes less time to set up,
+has easier to understand source code, and can automatically send emails in the
+background which Devise needs a gem for.
 ```
