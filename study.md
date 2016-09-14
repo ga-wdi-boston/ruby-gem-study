@@ -63,5 +63,32 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I did some research into RSpec, a Ruby gem that provides a testing framework for
+Ruby projects. It has a deep library spanning four core gems within the project,
+plus dependencies on a number of third-party gems.
+
+All this content makes RSpec a powerful tool for test-driven development (TDD),
+but it has downsides as well. Many developers lament RSpec's bloat problem,
+complaining that it makes things "unecessarily complicated" (Sam Koblenski,
+"RSpec or Minitest, How Does One Choose?"), providing too many ways to do the
+same things. It essentially requires developers to learn a new, domain-specific
+language (DSL), which can waste time when all you need to do is run a few simple
+tests.
+
+A number of sources pointed to Minitest as an optimal alternative. In comparison
+to RSpec, Minitest is leaner and more self-contained. It has far fewer
+dependencies on gems external to the core project, reducing concerns about
+maintenance and stability. Where RSpec has a lot of its own ways of doing
+things, making for a steep learning curve, Minitest "is just Ruby" (Brandon
+Hilkert, "7 Reasons Why I'm Sticking With Minitest and Fixtures in Rails").
+Minitest is a Ruby class and leans heavily on the core language that Ruby
+developers already know, making it easy to get tests up and running.
+
+It's worth noting that both RSpec and Minitest are well-maintained, with commits
+on at least a monthly basis and a low ratio of open to closed issues.
+
+While RSpec has a lot of power and a large community around it, Minitest is a
+great alternative for a team with a lot of junior developers, a tight testing
+schedule, or both. It's simpler, smaller, easier to understand, and perfectly
+adequate for the vast majority of a team's TDD needs.
 ```
