@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I began looking into paperclip and otehr similar gems. Paperclip is used for image uploads in Rails, which is apparently complicated for reasons I'm sure I don't understand yet. Regardless, there are a number of other similar gems for this application and even pages which compare them (i used: https://infinum.co/the-capsized-eight/articles/best-rails-image-uploader-paperclip-carrierwave-refile). After looking into paperclip and Carrierwave, I found that Carrierwave has a generally shorter time between commit and file updates, not to mention a functional wiki that is quite well maintained. While Paperclip seems simpler and easier to use, Carrierwave seems more robust, and is easier to find solutions to problems when they occur. 
 ```
