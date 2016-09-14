@@ -63,5 +63,11 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+capybara:
+This gem allows developers simulate users' interactions with
+their web apps. capybara can simulate actions like a user signing up/in to an app, making ajax requests, and interacting
+with javascript or HTML elements.
+
+Selenium:
+This gem has many of the same features as capybara, but the documentation was much easier to parse through. The source code repo has more issues, but there are many recent commits addressing the current issues with the code. Selenium can alos be better for simualting users interacting with visual aspects of a web app.
 ```
