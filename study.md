@@ -63,5 +63,10 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+
+RSpec seems to be the preferred standard for writing Ruby tests, but there are alternatives.
+
+One of the ones that came up as an alternative is Cucumber, which seems to be pretty popular (though not as popular as RSpec).
+
+However, one of the big draws of Cucumber is its readability - the specification / features are separate from the test code, and easier to access and read for the non-tech-savvy. This is the biggest draw, and could definitely be a huge plus for any team that is answering to / developing for a non-tech-savvy boss or client.
 ```
