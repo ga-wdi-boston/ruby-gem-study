@@ -63,5 +63,21 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Paperclip
+
+Paperclip is a file attachment library for ActiveRecord (a Ruby library that is
+  associated with databases such as MySQL and Postgres). Unless
+  ActiveRecord::Base#save is called, files are not saved to fixed locations on
+  disk, nor are they deleted if set to nil. Paperclip comes with 10 methods:
+  has_attached_file, url, default_url, styles,default_style, keep_old_files,
+  preserve_files, whiny, and convert_options. Paperclip appears to be updated
+  on a regular basis.
+
+Alternative to Paperclip:  Refile
+
+Refile appears to be a good alternative in that it does similar tasks as
+Paperclip. Additionally, it is updated more frequently than the other gems that
+are listed in the same category as Paperclip.
+
+
 ```
