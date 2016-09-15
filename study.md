@@ -63,5 +63,16 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+After some research, it appears Paperclip is widely viewed the best Ruby gems.
+Paperclib is used exclusively for file attachment.
+It's been around for years, has thorough documentation on GitHub
+and it still actively updated. There's over 1500 closed issues on its GitHub page,
+and open issues filed from as recently as yesterday.
+
+A worthy alternative to Paperclip would be Shrine. Like Paperclip, Shrine is a
+toolkit to assist with file uploading. It has over 800 GitHub commits, 0 open issues,
+and multiple tests documented online. The makers are on their 14th version of the
+gem and appear to be actively improving it, with new commits from as recently as
+yesterday.
+
 ```
