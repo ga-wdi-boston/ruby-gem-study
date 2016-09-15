@@ -63,5 +63,7 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+'CanCanCan' is a user authorization gem, which utilizes a class named Ability to store and manage user permissions in a single location.
+A better alternative class is 'Pundit'. Instead of storing all your user roles into one class, 'Pundit' lets you create multiple classes or
+policies for specific user roles. This makes things more managable and modular, further improving the ease of use and readability.
 ```
