@@ -63,5 +63,28 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+
+I chose Capybara, which simulates user interactions with a website to help
+with testing.
+
+According to RubyGems.org, it has over 20 million downloads (nearly 90K of the
+most recent version). It has over 200 contributors on GitHub, 12 open issues
+(compared to >1000 closed ones), frequent/recent commits, and an extensive
+library of tests.
+
+If I had to pick an alternative, I would probably go with Selenium Webdriver.
+
+According to RubyGems.org, it has nearly 17 million downloads (over 500K of
+the most recent version). It also has over 200 contributors on GitHub, and
+though its ratio of open to closed issues (418/1543) is higher, it still has a
+history of frequent and recent commits and regular releases, which indicates
+that it's likely well-maintained.
+
+As far as tests go, inside of the project's rb folder is a spec folder that
+contains tests for around half a dozen different web browsers.
+
+RubyToolbox lists Selenium as the second most popular browser testing tool.
+The next most popular (of those that don't require Capybara as a dependency),
+Webrat, has ~2 million downloads and hasn't been updated since 2014.
+
 ```
