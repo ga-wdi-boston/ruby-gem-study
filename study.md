@@ -63,5 +63,20 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Paperclip is a great tool for attaching multiple files to your model/project for easy access and useability. Paperclip
+is useful for models that don't require complex files or are not working with complex APIs. A better alternative, in
+most cases, would be CarrierWave. CarrierWave has a similar concept, as it is a file uploading tool that provides
+easy access to files needed in your model. It does, however, provide several advantages that Paperclip lacks. Firstly,
+in uploading new files to your model, it stores them in what are called "uploader classes".  These uploader classes
+provide greater organization and accessibility, and it can help keep your code clean, concise, and DRY! Generally speaking,
+Paperclip requires several more lines of code to implement than CarrierWave. CarrierWave
+also provides more flexibility in the way that you use uploaded files; unlike Paperclip, you have control over the
+order in which you use uploaded files. You can also choose which types of processors you use for each file. CarrierWave
+has a greater capacity for handling large files and images that Paperclip does not have. Overall, CarrierWave is a
+better option for projects that require a variety of file attachments.
+
+Sources: https://gist.github.com/janko-m/7257974
+https://github.com/carrierwaveuploader/carrierwave
+https://infinum.co/the-capsized-eight/articles/best-rails-image-uploader-paperclip-carrierwave-refile
+http://www.rubydoc.info/gems/paperclip
 ```
