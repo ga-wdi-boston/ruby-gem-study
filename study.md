@@ -63,5 +63,15 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose to reserach the paperclip gem. It is an easy file upload management for ActiveRecord, the layer of the MVC model that represents business data and logic. Paperclip's main purpose is to treat files like other attributes. Attached files are saved to a the filesystem and referenced in the browser by an easy specification. A prerequisite is installing ImageMagick, which seems to be easy to install. This gem looks pretty active with it's last commit being made ~20 days ago and has 11.4 million downloads over a span of 8 years.
+
+Paperclip is a good solution if you just need to upload a file and forget about it. It's preferred usage is in simple APIs that don't involve more complex actions like file caching or processing.
+
+One to Paperclip are CarrierWave.
+
+CarrierWave should be implemented when your application has a lot of logic associated with the filed that get uploaded and in applications that are image heavy.
+
+I think choosing an alternative would be depend on the application I'm working on. If the application was relatively simple and uploading files was not super involved. If the application was image heavy or had logic around uploaded files I would suggest using CarrierWave because it lets you choose the order of processing files, which is great for image processing. The uploader logic is store in uploader classes making code clean, easy to test and reuseable. 
+
+
 ```
