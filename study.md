@@ -63,5 +63,6 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+There were two gems that got my attention: `RSpec` and `capybara.` Both, I
+believe, help with trouble-shooting. For example, `capybara` assists by similating how a user interacts with an application. Capybara also can talk with many different drivers which execute tests through the same clean and simple interface. Still, from some research, I would pick `rspec` because it is mostly used testing library for Ruby in production applications. Therefore, the way I would justify this to my senior engineer is that it is better to catch a problem in production while it can be avoided, rather than when the product is finished. In my opinion, testing should not be left for last, but one should be constantly testing our code since it becomes expensive in terms of time. In addition, it is a simple tool that can be used by people with little-to-none experience with it. Also, rspec can be used by itself or along of other rspec-designed libraries, plus other tools Cucumber or Minitest. 
 ```
