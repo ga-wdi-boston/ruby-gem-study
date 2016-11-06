@@ -63,5 +63,14 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+HAML or full name is Abstraction Markup Language. This Gem is a layer on top of XHTML or XML. It was designed to clean up XHTML or XML documents so that they were non-repetitive, elegant, easy way, using indentation rather than closing tags and allowing Ruby to be embedded with ease.
+
+An alternative to HAML that I cound was SLIM. Slim is used to reduce html syntax to the essential parts without becoming cryptic.
+Although slim will strive for simplicity, the reason it is not a perfect substituion is that not everyones defintion of readable syntax is the same. The reason why slim is a beneficial is because slim provides optional syntax support so you can make it your own. The docs will show you the options.
+
+http://alternativeto.net/software/slim/
+
+http://code.tutsplus.com/articles/24-extremely-useful-ruby-gems-for-web-development--net-23863
+
+
 ```
