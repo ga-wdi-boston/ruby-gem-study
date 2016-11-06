@@ -63,5 +63,24 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+pry-byebug is a step by step debugging tool that can be used in pry. After
+installing this gem, the user needs to invoke pry and add "binding.pry"
+immediately before the line where the code is to pause. The user can then step
+through the code or finish the execution of the program through five different
+commands (break, step, next, finish, continue). pry-byebug can also navigate the
+callstack through four different commands (backtrace, up, down, frame). Commands
+can have shortcut aliases assigned to them or be repeated with "Enter" through
+some very simple commands. Finally, the break command can be used to add and
+adjust breakpoints during a pry session.
+
+pry-byebug seems like it's one of the better gems for debugging. An alterative
+is debugger, which is not as well-maintained and seems to be reaching the end
+of its life. One gem related to debugging that may be very valuable depending on
+the nature of the bug is Better Errors. As the name suggests, Better Errors
+provides the user with more useful errors than the standard Ruby error page.
+With Better Errors, it's much easier to determine where the error occurred, and
+it is even possible to inspect the source code live through a console. If the
+feature my team is working on is having issues with a particularly difficult
+error, Better Errors may help identify the error more precisely than a simple 
+debugger would.
 ```
