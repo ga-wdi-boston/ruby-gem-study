@@ -63,5 +63,48 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+paperclip: Easy upload management for ActiveRecord
+Paperclip is a plugin for Ruby on Rails’ ActiveRecord that lets files work as simply as any other attributes do. There are no extra database tables, only one library to install for image processing, and the ease of being able to refer to your files as easily as you refer to your other attributes
+I found the info below on Paperclip and two alternatives, CarrierWave and Refile.
+Paperclip
+Paperclip falls short when it comes to file caching and keeping your code clean. And it isn't very well maintained.
+
+Settings can be configured globally or on per model basis, which in turn puts a lot of logic that isn’t related to your model in your model. A side effect of this approach is that uploader logic can’t be tested independently of your model’s logic. And it basically has no file processing abilities. Ease-of-use and simplicity are Paperclip’s strong points.
+
+When to use: It’s the go-to solution if you just need to upload a file and forget about it. It's also good enough when building simple APIs since they don't need file caching or processing. But it should be avoided in more complex applications.
+
+CarrierWave
+CarrierWave is the Swiss army knife of Rails image uploaders.
+
+It stores all uploader logic in uploader classes, which keeps your code clean, reusable and easy to test! Such code organization enables the definition of custom file processors which can use any kind of third party library, be it a gem or shell command.
+
+It's most efficient when it comes to image processing as it lets you choose the order of processing files.
+
+Files can be processed with many different processors and new processors can be defined. These processors are not only useful for creating images of different sizes, but they can also be used for extracting EXIF data, parsing uploaded text files, validating uploaded files... You are limited only by your imagination.
+
+When to use: CarrierWave should be used in applications that are ‘image heavy’ or have logic associated with files that get uploaded.
+
+Refile
+Refile is the newest of the three, a successor to the ‘over-engineered’ CarrierWave, and strikingly similar to Dragonfly. It tries to combine the ease-of-use and simplicity of Paperclip with the power of CarrierWave. And falls short at doing that, at least in my opinion.
+
+It has the ability to define custom file processors, but it processes all files on-the-fly. An interesting concept as it makes the gem basically unusable in production environments without a CDN and can be a potential vulnerability to DoS attacks.
+
+It mounts as a separate Sinatra application on top of your Rails application, which enables it to stream files to improve page render times and conserve server memory.
+
+Customization is a pain and testing isn’t the easiest task either as the application can’t tell you where it stored the file you gave it. On the other hand, it’s rapidly changing and has a lot of supporters.
+
+When to use: In my opinion, on-the-fly image processors should be avoided as they have inherited DoS problems, no matter if your app uses a CDN or not. Refile should only be used if you absolutely need on-the-fly image resizing.
+Overview
+Feature	               Paperclip	          CarrierWave	          Refile
+CDN support	            Minimal	                OK	                OK
+File processing	         None	               Extensive	          Minimal
+Image processing	       Yes	               Extensive	            Yes
+Dynamic image resizing	  No	                  No	                Yes
+File streaming	          No	                  No	                Yes
+Customizability	        Simple	             Extensive	            None
+
+Conclusion
+Choosing between CarrierWave, Paperclip and Refile can be difficult at times, but I would always recommend CarrierWave. It is the most powerful and customizable of the three. It keeps your code organized and clean, and is easy to test.
+
+Refile isn't ready for prime time yet as it is still experiencing growth pains and has DoS issues, and Paperclip is fairly simplistic.
 ```
