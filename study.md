@@ -63,5 +63,15 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Gem: Faker
+
+This gem is a random data generator with a variety of data catagories that you can use with the option to do a custom one.
+
+Alternatives :
+
+Forgery - This is a good alternative because it offers many options for data and the option to make a custom catagory. The last commit was in March.
+
+Although the Forgery gem is a good alternative, I think the FFaker gem is a better alternative to Faker. It was originally forked from the Faker gem so they have many similarities. The FFaker gem has been updated more recently, though.
+
+
 ```
