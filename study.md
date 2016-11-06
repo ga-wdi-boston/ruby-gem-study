@@ -63,5 +63,7 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+My gem of choice is Capybara, an integration testing tool that simulates how a users interact with a website. According to rubygem.org, it has about 20 million downloads and according to ruby-toolbox.com, development activity appears to be very high with the latest version being released 5 months ago.
+
+Alternatives to Capybara include Selenium-webdriver, Poltergeist, Webrat, Headless, SitePrism, and many more. I believe that the next best alternative would be Selenium-webdriver. Overall, on ruby-toolbox.com, Selenium-webdriver's popularity ranks at the top with Capybara in Browser testing and appears to even be significantly higher than the 3rd best option (Poltergeist). It has nearly 17 million downloads and the latest version was released 2 months ago.
 ```
