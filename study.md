@@ -27,7 +27,7 @@ The second way is to use `bundler` (another gem, which we installed during insta
 
 `bundle install`
 
-> When you run `bundle install` for the first time in a project, a new file called 'Gemfile.lock' gets created. This file constrains the versions of the different gems used, so that even if `bundle install` is re-run, and some gems have been updated, only the versions specified in Gemfile.lock get used.
+> When you run `bundle install` for the first time in a project, a new file called 'Gemfile.lock' gets created. This file constrains the versions of the different gems used, so that even if `bundle install` is re-run, and some gems have been updated, only the versions sg get used.
 
 There are a lot of similarities between Node modules and Ruby gems.
 
@@ -63,5 +63,8 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Devise.
+Used for authentification with rails.
+omniauth is a good alternative for this. It has over 1000 commits on github as well as 140 contributors.
+I would personally reccomend it because it offers standardizes multi-provider authentication and is well maintained.
 ```
