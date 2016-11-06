@@ -63,5 +63,32 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Twilio - twilio-ruby
+https://rubygems.org/gems/twilio-ruby
+Sms and call handling API functionality
+Use case sms authentication
+Keywords: sms, REST API, Client Capability Tokens
+alternative.to link
+http://alternativeto.net/software/twilio/
+Possible Alternatives:
+Clockwork SMS
+site - https://www.clockworksms.com/
+ruby gems - https://rubygems.org/gems/clockworksms
+Plivo
+site - http://www.plivo.com/
+ruby gems - https://rubygems.org/gems/plivo
+Authy
+site - https://www.authy.com/developers/
+ruby gems - https://rubygems.org/gems/authy
+Recommendation:
+Looks like Authy could be a great option to go with, they handle the three
+main authentication methods that we're looking for, SMS, tokens, and  one touch.
+The implementation code looks really clean and they have good use case examples
+that match what I'd want to test against.
+I'd recommend against clockwork because they don't have a recent history of
+updates and they have a low install number.
+I'd also recommend agains plivo because the way they describe their functionality
+on their site is targeted towards communication features and I don't immediately
+see any strong documentation for authentication implementation.
+
 ```
