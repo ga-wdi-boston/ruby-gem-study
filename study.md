@@ -63,5 +63,20 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+RSpec: Rspec is a testing tool for Ruby. It was created for behavior-driven development, or BDD, which was derived from its parent, TDD (test-driven development). It is a simple tool, but very robust, and it is also the most frequently used testing library in
+production applications. For all these reasons, and since Rspec reads a lot like English, it is a very appealing choice in a BDD environment.
+
+The next best alternative to Rspec I believe would be a gem called Minitest. A  few
+reasons why Minitest might be a good second choice in a similar environment are:
+
+1. Setup: Setup for Minitest is much easier. Unlike Rspec, Minitest requires very little maintainence.
+2. Code Size: Code size for Minitest is significantly smaller than Rspec. Depending on the constraints of the project, this might be a valuable feature to consider.
+
+And finally...
+
+3. Ease of Use: Minitest is easier to use, which might be appealing if a number of less-experienced developers are involved with the project.
+
+
+
+
 ```
