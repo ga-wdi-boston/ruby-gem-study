@@ -47,7 +47,7 @@ Run `bundle install` command above from within the repo. Then, just for fun, run
 
 ### Where Can I Find Ruby Gems?
 
-The two main places to look for Ruby gems are **[RubyGems.org](https://rubygems.org)** and **[The Ruby Toolbox](https://www.ruby-toolbox.com/)**. RubyGems.org is the official listing place for all published gems, and it's the place that our gems actually come from when we install them. The Ruby Toolbox, in contrast, doesn't actually have the code on its site, but it provides some additional information about gems that's not available on RubyGems.org, including grouping gems by category.
+The two main places to look for Ruby gems are **[RubyGems.org](https://rubygems.org)** and **[The Ruby Toolbox](https://www.ruby-toolbox.com/**). RubyGems.org is the official listing place for all published gems, and it's the place that our gems actually come from when we install them. The Ruby Toolbox, in contrast, doesn't actually have the code on its site, but it provides some additional information about gems that's not available on RubyGems.org, including grouping gems by category.
 
 ### Which Gems Should I Use?
 
@@ -63,5 +63,11 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+The RubyPython Gem is documented as a bridge between the interpreters of Python and Ruby.  It has over half a million downloads, is on it's 23rd version, and was released 5 years ago.
+
+The Python Gem, however claims to be an implementation of Python using Ruby.  It has only just over 2,000 downloads, is only on version 0.0.1, and was only released just over a year ago.
+
+RubyPython seems to be a much more useful tool for doing what these two packages are setting out to accomplish: to be able to use Python within the Ruby environment.  RubyPython seems like it will allow you to use already written Python scripts and have Ruby's interpreter correctly interpret and execute them.  The Python Gem, however, might allow you to do this as well, but it's somewhat unclear because the documentation is terrible.  It has grammar errors, few examples, and is overall very sparse.  RupyPython's documentation is much more extensive, has more tools, a list of known bugs, and it is very explicit about what you can do with it.  RubyPython also has been tested with various interpreters, Ruby versions, and OS's.  The Python Gem has not, or if it has, there is no record of it.
+
+It is clear that for the purposes of using Python scripts within a Ruby environment, RubyPython is the best tool for the job.
 ```
