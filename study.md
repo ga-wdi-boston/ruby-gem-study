@@ -63,5 +63,9 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+byebug is a ruby gem that is a debugger. It seems to work similarly as to how we would include a debugger statement in JavaScript but you run it by typing in byebug followed by the filepath to the file you want to debug. It will then show a fat arrow where there are issues. There is a bunch of other functionality that I assume will make sense as our ruby adventure continues
+
+An alternative is what we have been using in class - pry. Pry is great because when you have an error it says exactly what the error is which, based off of my limited experience, has already proved to be tremendously helpful. It looks like pry also has the fat arrow functionality that stops when there is an error. Based off of the documentation I think pry is far superior due to its asy of use. The documentation assumes you know nothing which makes learning about pry easy. Speaking of learning, when you type learn upon a stop and you can gain more insight on how to properly debug.
+
+While it seems like both methods have similar features and functionality it seems like pry is moreso designed to aid in debuggin for beginners. While it may not be in the best interes of a senior engineer to use this, it may be wise to implement it so all members of the team at all skill levels can easily debug leading to less issues with programs.
 ```
