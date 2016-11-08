@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Devise is a gem that enables authntication for Rails with another gem(?) called warden. It was last updated in July of this year, meaning it has been well maintained. The best alternative I was able to find is rails_warden which appears to have the same or similar functionality with only one dependency (warden) as opposed to devise, which including warden has five. Howeve, rails_warden has not been updated since february of 2014, more than two years older than the last devise update.
 ```
