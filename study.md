@@ -63,5 +63,26 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I researched Devise and other alternatives to implementing auth frameworks. The
+most prominent alternatives appear to be using Sorcery or rolling your own.
+Based on my preliminary research, I'd recommend that we leverage Sorcery rather
+than Devise.
+
+Devise and Sorcery are used to authenticate to websites with a User account system.
+Both of these options include robust features, strong documentation
+(as seen on their github and subsequent wiki pages), and strong community
+support as shown by their github activity and usage statistics on ruby toolbox.
+
+These gems start to differ when you examine their methodology. Sorcery is
+light-weight and provides helper methods but you develop your own controllers,
+actions, and views for your auth needs. Devise on the other hand, comes with this
+out of the box but if you want to customize for your needs you'll need to
+learn how to properly override the default behavior.
+
+As previously stated, I would recommend the light-weight Sorcery based on
+being able to more readily adapt the framework to our project requirements.
+
+Devise: https://github.com/plataformatec/devise
+Sorcery: https://github.com/Sorcery/sorcery
+
 ```
