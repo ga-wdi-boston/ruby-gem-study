@@ -63,5 +63,10 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I picked 'devise' as my study. Devise is used as an authentication solution and
+it will significantly speed up your work. It's built on top of the Rails MVC
+stack and its modular architecture allows you to pick what you need.
+The 'warden' is similar to the 'devise' gem and I think it is the next best
+alternative to 'devise' because 'devise' is a flexible authentication solution
+for Rails based on 'warden'.
 ```
