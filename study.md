@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Devise seems to be extremely important as it pertains to user information security. It locks out a user after failed password attempts as well sends "how-to" instructions upon password resets. It also stores and enrypts user passwords, tracks ip address and time stamps them. Capybara run test on your web aplication to see how it would react with an a-typical user. By "talking with many different drivers" it seems Capybara can save time when it comes to user testing. 
 ```
