@@ -63,5 +63,11 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose to look at alternatives to devise which is a gem that provides authentication.  I looked at The Ruby Toolbox within the Rails Authentication
+category and devise definitely seems like the best choice and I couldn't find another gem in the list that I think would be a viable alternative. I googled to see if I could find anything there and came across a link to a gem called "Clearance."  After researching it a bit more, I would pick this one as the next best alternative even though I don't necessarily understand all the ins and outs of authentication and how these two offerings may differ in terms of all of the functionality they offer.  Here is why I would recommend it:
+1. The group that manages this gem is thoughtbot, inc.  They're a software development company and they have many offerings on github (including paperclip which is another one of the gems listed above).
+2. They're active. They have commits every month and the last one was in October.
+3. It's been around since September of 2009 with multiple version releases each year meaning it's probably a pretty mature product.
+4. There are only 19 outstanding issues with a total of 331 closed.  Out of the 19 outstanding only 2 of them don't have any comments showing that they're very responsive.
+5. Their /spec directory seems fairly robust. At least it seems like they have sets of test files for multiple aspects of the product.
 ```
