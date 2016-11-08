@@ -63,5 +63,7 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose multi_json, which chooses the fastest json parser available and use that. It was released by MIT, and its latest commit was 6 months ago.
+
+As an alternative, you could use json_pure. It has extensive documentation, and was last updated in July 2016. It has 59 open issues and 149 closed, so approximately 3/4 have been resolved. 
 ```
