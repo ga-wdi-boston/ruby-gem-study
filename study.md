@@ -63,5 +63,9 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose 'resque' as my Ruby gem of choice. It is a gem for creating background jobs. It also
+implements a background job queue so that these jobs can be run later. The nice thing about
+resque is that any Ruby module or class can be a background job.
+
+Alternatives for a backround-job scheduler seem to be a little sparse in terms of Ruby gems. The one that seemed like the best choice to me would be a gem called 'Crono'. It's most recent commit was about a year ago which is a far sight better than most other background job schedulers that I found. I think Crono would be a good option for smaller, simpler projects that don't require such a robust gem such as Resque. The Web UI for Crono is also quite simple and easy to use. While Resque seems to be laden with lots of features, if you just want to run some Ruby jobs for something a bit more lowkey Crono could do the trick!
 ```
