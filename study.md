@@ -63,5 +63,10 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Capybara is an integration testing tool for rack based web applications. More specifically, it is an automation library, and it provides a means for controlling a browser. It simulates how a user would interact with a website by using anntuitive API which mimics the language an actual user would use. Another added benefit is that there is no setup necessary for Rails and Rack application.
+
+Alternatives include Selenium and Holy Grail, the former which automates browsers and the latter that executes browser-less, console-based, javascript + DOM code right from within your Rails test suite. I would argue that Holy Grail is the next best option, since it's more reliable than Selenium. But I would argue that neither are ideal, since Holy Grail runs Javascript on a single page and routes xhr requests to a controller in a functional test, and doesn’t drive a virtual browser session from action to action that supported Javascript and UI interactions.
+
+I would argue that Akephalos is the best since Akephalos provides a Capybara driver that allows you to run  Cucumber integration tests in the headless browser HtmlUnit. HtmlUnit is a “GUI-Less browser for Java programs” that models HTML documents and provides an API that allows you to invoke pages, fill out forms, click links, etc. just as you would in a “normal” browser, which results in highly reliable, headless browser tests.
+
 ```
