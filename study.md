@@ -63,5 +63,12 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+http://www.rubydoc.info/gems/rack-mobile-detect
+Allows you to track responses when using your programming on mobile devices.
+Some drawbacks, including the fact that it does not distinguish between mobile devices
+and tablets, which could cause confusion in results logged.
+https://github.com/jistr/mobvious
+
+If you were in need of a gem that had the ability to track specific devices (tablets, mobile,
+  laptops, etc) this gem has a little bit more specificity.  It gets some good reviews by users on Stackoverflow and has an extensive readme.
 ```
