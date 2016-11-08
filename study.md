@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+As a best alternative to paperclip, I believe CarrierWave is the best. It is probably better than paperclip in most regards aside form the fact that it is more complex. If you are doing a lot with the files that you are uploading, there is a lot of flexability and customizability to the gem. 
 ```
