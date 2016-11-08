@@ -63,5 +63,21 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I chose 'rspec' as I interpreted "pick one of the gems listed above" to mean
+the ones at the top of this file. From what I can tell, and this is not in my
+own words, this is used for behavior-driven development. It is a testing library
+within Ruby. The "R" stands for Ruby, and "Spec" stands for specification. It
+allows you to test a cross-section of code to determine whether the code returns
+the epxected outcome. Rather than having to manually test it, you can do it more
+automatically with RSpec. It's most commonly used on Rails apps.
+
+Alternative: Test::Unit  <-- Best next alternative. From google searches, seems
+like a similar outcome. From Github repo, the last commit was 6 days ago, and
+there are only 3 open issues with 78 closed. There are 1,157 commits. If
+"collaborators" is the same as "contributors" I'm seeing random people...not
+anything that pops out as a legit company... but there are 28 contributors...
+
+20+ test cases in Github repo. 
+
+Souce: https://www.lynda.com/Ruby-tutorials/What-RSpec/183884/371427-4.html
 ```
