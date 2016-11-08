@@ -63,5 +63,11 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+ I chose devise. It is used as an authentication solution and
+ it will maximize the speed up your work. It's built on top of the Rails MVC
+ stack and it has a modular architecture that allows you to pick what you want.
+
+ I chose resque as my Ruby gem. It is a gem for creating background jobs. It also
+ has a background job queue so that these jobs can be run later. Cool things about
+ resque is that any Ruby module or class can be a background job.
 ```
