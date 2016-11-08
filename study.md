@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I was looking at the paperclip gem which is for upload management for a file. I would suggest instead using lolita-file-upload, because it is using full integration for uploading files rather than just something for ActiveRecord.
 ```
