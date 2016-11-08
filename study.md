@@ -63,5 +63,11 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Paperclip - a rails gem for uploading files securely.
+Alternative gems: CarrierWave, Refile.
+
+Best alternative: CarrierWave
+
+Dearest Senior engineer,
+I see potential in using CarrierWave as an alternative Gem to Paperclip. Paperclip has poor file caching, and you may want to consider an alternative since our project is rather image heavy - something CarrierWave is good with.  It is also recommended for use when there is logic associated with the files to be uploaded.
 ```
