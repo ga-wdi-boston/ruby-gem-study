@@ -63,5 +63,6 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+I selected 'Capybara' which is used for Testing, Frameworks, RSpec, Formatters, & Browser testing.  There are quite a few alternatives out there but capybara appears to be one of the only ones (if not the only one) that includes Browser testing.  A reasonable alternative is 'Shoulda-Matchers' - another Ruby language gem.  It is gaining in popularity and its most recent commit was 6 months ago ( while Capybara was updated 4 days ago!). Both are licensed by MIT.
+
 ```
