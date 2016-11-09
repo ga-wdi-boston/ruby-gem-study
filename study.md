@@ -63,5 +63,5 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+Spree is a e-commerce framework used for building websites with the ability to purchase items, such as clothing, video games, really anything. It seems to be updated on github quite often, and pretty popular on ruby-toolbox.com so I would think it is reliable. A competitor like RoR eCommerce is aimed towards small businesses and is updated much less frequently, so I would expect bug fixes to be slower. The others seem hardly used, so Spree is the clear winner here. 
 ```
