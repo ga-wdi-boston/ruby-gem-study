@@ -63,5 +63,13 @@ Depending on the gem, there may not necessarily be a lot of documentation availa
 As an exercise, pick one of the gems listed above and research it; then, research some alternative gems, and pick the gem that you think is the next best alternative. How might you justify this choice of best alternative gem to a senior engineer on your team? Explain this below and submit a pull request.
 
 ```txt
-Your response here.
+
+The gem that I decided to research is Resque; Resque is a Redis-backed library for creating background jobs, placing those jobs in multiple queues, and processing them later. So it seems like Resque is utilized to optimize job-processing capabilities. Background jobs handles by Resque include any Ruby class or module that responds to 'perform'. Resque is comprised of 3 parts:
+1. A Ruby library fo creating, querying, and processing jobs.
+2. A Rake task for starting a worker which processes jobs.
+3. A Sinatra app for monitoring queues, jobs, and workers.
+
+The gem that I found to compare against Resque is called DelayedJob. It seems like DeplayedJob's primary focus is to asynchronously execute longer tasks in the background. These tasks include but are not limited to: sending mass emails, image resizing, http downloads, updating collections, checking for spam, importing batchs, etc. So it DelayedJob is primarily concerned with handling tasks that require a large amount of processing time.
+
+After a brief comparison, its clear that Resque is clearly the superior gem: it has the ability to queue the jobs (as DelayedJob does), but also allows users to assign "workers" to each job's processing and therefore gives the user a more dynamic toolset for processing. In addition, Resque also provides the user with superior job-processing-monitorability. The user is able to monitor jobs, queues, and workers with Resque. This would allow our team to optimize their job-processing and job-monitoring abilities in a more effective and efficient manner. 
 ```
