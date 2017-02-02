@@ -115,5 +115,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Depends on what you want to do though.
+For my next project I would definetly say Devise as it will take care of almost all of the Auth and I'm not a fan of that back end stuff! But then again there are a lot of issues with that one and it doesn't get committed often.
+For our classes I would say rspec because it is used all the time for tests and is regularly updated therefore it saves a lot of time!
 ```
