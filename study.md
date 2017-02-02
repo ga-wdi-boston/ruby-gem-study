@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+httparty is a gem that allows you to make HTTP web requests from within your ruby code.  An alternative is the Rest-client gem.  This seems like a good alternative because it can make HTTP requests as well as REST requests, making it more applicable to different situations.  Also, the Rest-client is more popular according to The Ruby Toolbox.
 ```
