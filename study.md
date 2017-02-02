@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I need more work understanding authentication and autorization, so reading a bit more on the
+Devise gem was pretty interesting. Authentication and authorization are not the same thing. Most
+users on any site or app will reqire authentication with different levels of auhtorization. Devise makes it easy to override views and controllers which are part of the MVC framework. It seems like a simple and secure way to get through the authentication, but also read some opinions that say as a beginner you can and should do your own authentication with the has_secure_password method built into Rails.
+The next main alternative I saw to Devise was called omniAuth, which is meant to simplify the authentication process. Developers can create startegies with omniAuth, which alows them to personalize their authentication process. It is a multi-provider authentication, which means you can try out a few different strategies.
 ```
