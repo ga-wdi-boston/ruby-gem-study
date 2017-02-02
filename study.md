@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+pry-byebug - i think its importanat for new developers like us help us to debug our code. it provide what we need and execute it
+
+bcrypt - its a gem that help secure the user information-
+if youre making an app that will need to store the user credit card or importantt informatopn it will help to secure it against hackers.
+
 ```
