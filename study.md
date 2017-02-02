@@ -115,5 +115,6 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I have chosen rspec to do the research as it seems like we have been using it alot. Basically, rspec provides an api that enables the develop to test its codes and if the codes will provide the expected result. It also updates on a regular basis and the last update was taken place in 12/12/16, which, was not long ago.
+The next best alternative is devise since it allows one to have multiple models sign in at the same time. The contributor to this gem is MIT which makes it highly reliable. The kick back to this gem is that if one is not experienced, one shouldn't use it. And it hasn't been updated in half year which is probably not good in the sense of technologies. 
 ```
