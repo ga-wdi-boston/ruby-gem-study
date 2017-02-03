@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+rubocop 0.47.1 the next best alternative would be 0.47.0 as ther has only been 2 days between versions
+and both are recent
+scss_lint 0.52.0 and the next best alternative would be 0.51.0 as ther has only been 2 weeks between versions
+and both are recent
 ```
