@@ -115,5 +115,14 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+A9n - is a simple tool to maintain and verify ruby/rails apps. It doesn't have any opened issue on github also.
+https://github.com/knapo/a9n
+
+It's freguently updated. Last version is from September 2016. Licenced by MIT.
+https://rubygems.org/gems/a9n
+
+The next best alternative after A9n is way bellow the set expectations confit 1.1.0
+https://www.ruby-toolbox.com/search?utf8=%E2%9C%93&q=configuration+manager
+
+https://github.com/poeks/confit
 ```
