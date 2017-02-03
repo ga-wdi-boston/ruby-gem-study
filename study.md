@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Paperclip is a great option for just uploading something but isn't the most robust gem for file caching/processing. CarrierWave is a superior choice for image processing and logic for uploaded files because it lets you choose the order of processing files and you can add new processors.
+
+https://infinum.co/the-capsized-eight/best-rails-image-uploader-paperclip-carrierwave-refile
+
 ```
