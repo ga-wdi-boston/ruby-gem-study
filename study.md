@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Hey Team, I'm pretty annoyed by Rubocop - it's always throwing slight errors
+and has some slight autocomplete functionality that trips me up.  Addtionally,
+I've noticed that some of our developers have code that keeps slipping into our final versions with some linter errors.  I think we'd be better of using a tool like cane that will cause our code to fail if we have too many linter errors so
+that we can make sure we're abiding by the ruby best practices.
 ```
