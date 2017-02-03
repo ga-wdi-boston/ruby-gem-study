@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+
+The first gem I found was the "Remarkable" gem.  It seems like a good option for gems used to improve testing code.  It has over 200,000 downloads and has multiple updated versions.  However, upon further research, it was determined that remarkable is no longer maintained and updated on a frequent basis.  As a result, I looked into alternatives and found the "Shoulda" gem.
+
+The "Shoulda" Gem is used to improve Rails-specific tests (using Minitest).  It seems like a good choice when considering a gem that could improve testing because of its praise on websites (e.g. code.tutsplus.com).  In addition, on gitHub, it has almost 2,000 stars and 200 forks which indicate that there is a large number of supporters (and people trying to improve the gem).  In addition, it has only three open issues, which indicates that it is well maintained.  Because of its level of maintainenance and praise for reliability, it appears to be a better choice than "Remarkable". 
+
 ```
