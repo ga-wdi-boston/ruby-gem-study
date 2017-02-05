@@ -115,5 +115,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+After some research, one of the most common authorization gems is CanCann(now, CanCanCan). It is felixible in that it is simple, straightforward, and a standard current_user method for determining what access level the user has been granted.
+
+As an alternitive to CanCan, I found Pundit. Pundit, is a newer authorization gem with growing popularity amongst more up-to-date ruby versions. Pundit has nearly all the same feature as CanCan, however it even further simplifies the authorization system by putting all involvd ruby objects into one centralized folder. While CanCan seems to have a more proven reputation, Pundit seems like a more user-friendly authorization gem for a new developer to use. Either way, they are both quality alternitives to one another. 
 ```
