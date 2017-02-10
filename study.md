@@ -115,5 +115,24 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Reek is an alternative to RuboCop. While RuboCop notifies the developer of style
+error such as when a line is too long or other general syntax heuristics, Reek is
+a Gem that focuses more on code smells that aren't style related such as when
+lines of code are used multiple times or when a method has too many parameters.
+RuboCop has many more features which is definitely a positive but Reek can help
+make your code more DRY which definitelty is an advantage over RuboCop.
+In order to try and convince a senior developer on the team that this alternative
+gem is a good choice I would lay down the pros and cons of this gem compared to
+other alternative gems kind of like I did at the end of the first paragraph. It
+would also be a good idea send them the documentation so that they could investigate
+alternatives themselves if they had time. Ultimately, if I really wanted to use a
+particular gem I would gather up all of the relevant information about them gem
+and attempt to relate it to the project we are currently working on in the most
+effective way possible. In the case of Reek I would point out that we are all pro
+developers who should be able to write code with minimal syntactical errors so
+a gem like RuboCop would be unnecessary. In addition there are also many identical
+features in both Reek and RuboCop so going with Reek would help the team with keeping
+our code DRY while leaving out features that we dont really use anyways, such
+as style-related errors. Plus RuboCop is extremely naggy than Reek so this would also
+help the mental well-being of the entire team
 ```
