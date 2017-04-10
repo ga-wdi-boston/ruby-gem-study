@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+The ruby gem "Money" appears to represent monetary values in integers and cents and provides the ability to convert a monetary sum from
+one currency to another. The money-converter gem also converts money from one currency to another. This would be the next best alternative if
+management was only interested in currency conversion because the larger "Money" gem has additional functionality that might not be necessary while this
+other gem only applies to the issue at hand.
 ```
