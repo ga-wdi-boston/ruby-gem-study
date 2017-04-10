@@ -115,5 +115,12 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+It was tough to find a close alternative to most of these above.  I kept running into
+alternative gems that hadn't been updated in years, had very old unaddressed issues,
+etc.  I did take a look at https://rubygems.org/gems/httparty and found one potential
+alternative https://rubygems.org/gems/restful_resource.  It has had 62 version releases
+since first being introduced in 2012, the most recent being in Jan. 2017.  That tells
+me that they are in a continuous improvement mode, perhaps working in an agile fashion
+to improve the gem.  The only thing that concerns me, however, is that I don't see a
+link to GitHub to view the issues.
 ```
