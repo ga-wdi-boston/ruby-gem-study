@@ -75,6 +75,9 @@ installed within the project.
 Run `bundle install` command above from within the repo. Then, just for fun, run
 `gem install bundler` and look at the output you get.
 
+Bundle install took way longer and produced more output in the terminal than gem install bundler.
+Gem install bundler produed one line "1 gem install "
+
 ## Researching Gems
 
 ### Where Can I Find Ruby Gems?
@@ -115,5 +118,11 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Gem to show the number of days between two dates
+Best one: https://github.com/tamaloa/days360
+Second Best: https://rubygems.org/gems/a14z6ch_elapsed_days
+
+The second choice has over 10k downloads. Four previous versions that have been built upon and
+21 commits. No open issues. 
+
 ```
