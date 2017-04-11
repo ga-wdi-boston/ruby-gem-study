@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I'm going to have to revisit this study. I did the initial readings and I understand on a basic level that gems are packaged Ruby code? The Wikipedia reading was quite basic and the Bundler reading was too in depth. Going to need more time to do the outside research part.
 ```
