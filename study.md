@@ -115,5 +115,18 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+selected from the list:
+bcrypt
+Alternative pick:
+RubyGem Bcrypt-ruby -  The bcrypt Ruby gem provides a simple wrapper for safely handling passwords
+made by the same team: The OpenBSD Project may have less downloads buit it does
+beat out the others.  Same team so in most case they are known already and was used before.
+also has a very detailed rubydoc.info.  updates aand commit was the same for the bcrypt
+
+
+
+
+
+
+for the alternative i decided to use the
 ```
