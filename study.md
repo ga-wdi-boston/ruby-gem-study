@@ -115,5 +115,10 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
-```
+The gem that I picked is resque, which is a library for creating background jobs.  The best apparent alernative that I could find is called "Delayed::Job".  It integrates well with Rails.  It is also stable is has been in use for many years.  It is used by the website Shopify to handle tasks such as image resizing, sending newsletters, and updating search indexes.
+
+Sources:
+-Required reading
+-https://github.com/collectiveidea/delayed_job
+-http://blog.andolasoft.com/2013/04/4-simple-steps-to-implement-delayed-job-in-rails.html
+-http://guides.rubyonrails.org/active_job_basics.html
