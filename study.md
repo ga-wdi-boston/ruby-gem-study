@@ -115,5 +115,10 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+pbkdf2 - This is commonly showing up as a good alternative to Bcrypt. There seems
+to be a lot of back and forth on this topic. While I am not quite up to speed
+enough to speak to this topic at the present, I do see this would be a good
+alternative to study and a possible replacement. One point of contention that I
+see and would require more research than I had time for is how well understood
+bcrypt is as opposed to pbkdf2. 
 ```
