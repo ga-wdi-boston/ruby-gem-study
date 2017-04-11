@@ -75,6 +75,70 @@ installed within the project.
 Run `bundle install` command above from within the repo. Then, just for fun, run
 `gem install bundler` and look at the output you get.
 
+~/wdi/studies/ruby-gem-study (response)
+$ bundle install
+Fetching gem metadata from https://rubygems.org/........
+Fetching version metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 12.0.0
+Installing i18n 0.8.1
+Using minitest 5.10.1
+Installing thread_safe 0.3.6
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Installing rack 1.6.5
+Installing public_suffix 2.0.5
+Using bcrypt 3.1.11
+Installing byebug 8.2.5 with native extensions
+Using mime-types-data 3.2016.0521
+Installing climate_control 0.1.0
+Using coderay 1.1.1
+Installing orm_adapter 0.5.0
+Using thor 0.19.4
+Using diff-lcs 1.3
+Using method_source 0.8.2
+Installing mimemagic 0.3.0
+Using slop 3.6.0
+Using rspec-support 3.5.0
+Using bundler 1.14.6
+Installing tzinfo 1.2.3
+Installing nokogiri 1.7.1 with native extensions
+Using rack-test 0.6.3
+Installing warden 1.2.7
+Installing addressable 2.5.1
+Using mime-types 3.1
+Installing cocaine 0.5.8
+Using pry 0.10.4
+Using rspec-core 3.5.4
+Using rspec-expectations 3.5.0
+Using rspec-mocks 3.5.0
+Installing activesupport 4.2.8
+Using loofah 2.0.3
+Installing xpath 2.0.0
+Installing pry-byebug 3.3.0
+Using rspec 3.5.0
+Using rails-deprecated_sanitizer 1.0.3
+Installing activemodel 4.2.8
+Using rails-html-sanitizer 1.0.3
+Installing capybara 2.13.0
+Installing rails-dom-testing 1.0.8
+Installing paperclip 4.3.7
+Installing actionview 4.2.8
+Installing actionpack 4.2.8
+Installing railties 4.2.8
+Installing responders 2.3.0
+Installing devise 3.5.10
+Bundle complete! 5 Gemfile dependencies, 49 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+~/wdi/studies/ruby-gem-study (response)
+$ gem install bundler
+Successfully installed bundler-1.14.6
+1 gem installed
+~/wdi/studies/ruby-gem-study (response)
+$
+
+
 ## Researching Gems
 
 ### Where Can I Find Ruby Gems?
@@ -115,5 +179,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I looked at resque.  I wasn't able to find anything in Rubygems that does the
+same functions.  How can I find another queueing bundle?  Should I be looking
+at another place?
 ```
