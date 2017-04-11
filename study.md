@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+<!-- I looked at "devise" which is used for Password authentication
+Compared it to "Authentication(https://github.com/fujimura/authentication)"
+which I would be afraid to use b/c the documentation is so sparse and there does
+not appear to be a testing folder.  So there is no way to validate what testing
+may have been done.-->
 ```
