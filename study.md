@@ -115,11 +115,13 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- Also Resque is the other gem about which
-I'd like to do more reading as well as Formtastic.  Formtastic is not an alternative
-to Resque.  I'd have to spent another hour researching and thinking about this
-and push it well over 2 hours for homework tonight.  Formtastic sounds from
-basic skimming of what it is may save some time with forms implementation.
+<!-- Resque intrigues me most of the gems above.  I did some brief browsing and
+want to learn more about them.  Formtastic looks interested although it is
+not an alternative to Resque.  I'd have to spent another hour researching and thinking about this
+and push it well over 2 hours for homework tonight.
+I'd like to do more review before suggesting an alternative to Resque to a
+senior engineer on my team.
+Formtastic sounds from basic skimming of what it is may save some time with forms implementation.
 Because this homework takes 2+ hours to finish, I will continue my
 review and Googling of other interesting gems throughout this week.
 Found Formtastic here:
