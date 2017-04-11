@@ -115,5 +115,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I took a look at rubocop, which is a Ruby code analyzer. It enforces the guidelines in the Ruby Style Guide. Rubocop will let you know, for example, if lines are too long, methods have too many lines, or if there are preferred Ruby idioms.
+
+Then, I researched alternatives to rubocop. I found a gem called reek, which also analyzes Ruby code for potential problem areas. Reek, however, will focus on code that could lead to refactorings. For example, it will seek out methods with too many parameters or code repetition. Therefore, I think reek could be a useful gem for some types of code.
 ```
