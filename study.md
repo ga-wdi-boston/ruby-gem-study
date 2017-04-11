@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I picked the gem httparty to research.  I noticed that there is a gem called http which could provide a good alternative.  Although it's not as widely used as httparty, it still has 4,000,000+ downloads and is actively supported, with the latest release in February.  Http provides method chaining systems for http requests, which could have really come in handy in our last game, where we were often calling the API in multiple separate methods.
 ```
