@@ -115,5 +115,4 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
-```
+I chose to research scss-lint, which helps to keep SCSS clean and readable by running your code against a repository of configurable linter rules. After consideration, however, I believe that we should look into sass-lint instead, as scss-lint will no longer be maintained by the core team for Ruby, but for Dart. As this is the case, I believe the safer alternative would be to go with a gem file that is going to be supported in the future.```
