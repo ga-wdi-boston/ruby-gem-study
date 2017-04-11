@@ -21,19 +21,18 @@ that you don't need to waste time reinventing the wheel.
 
 Here are some gems that commonly appear in Ruby and Ruby on Rails projects:
 
-| Gem | Description |
-| --- | --- |
-| [bcrypt](https://rubygems.org/gems/bcrypt) | Secure hash algorithm. |
-| [capybara](https://rubygems.org/gems/capybara) | Integration testing tool for rack-based web applications. |
-| [devise](https://rubygems.org/gems/devise) | Authentication for Ruby on Rails. |
-| [httparty](https://rubygems.org/gems/httparty) | RESTful web services client. |
-| [paperclip](https://rubygems.org/gems/paperclip) | Upload management for ActiveRecord. |
-| [pry-byebug](https://rubygems.org/gems/pry-byebug) | A combination of two separate gems, `pry` and `byebug` |
-| [resque](https://rubygems.org/gems/resque) | Redis-backed library for creating background jobs. |
-| [rspec](https://rubygems.org/gems/rspec) | Behavior-driven development suite. |
-| [rubocop](https://rubygems.org/gems/rubocop) | Linter for Ruby. |
-| [scss_lint](https://rubygems.org/gems/scss_lint) | Linter for SASS/SCSS. |
-
+| Gem                                                | Description                                               |
+| -------------------------------------------------- | --------------------------------------------------------- |
+| [bcrypt](https://rubygems.org/gems/bcrypt)         | Secure hash algorithm.                                    |
+| [capybara](https://rubygems.org/gems/capybara)     | Integration testing tool for rack-based web applications. |
+| [devise](https://rubygems.org/gems/devise)         | Authentication for Ruby on Rails.                         |
+| [httparty](https://rubygems.org/gems/httparty)     | RESTful web services client.                              |
+| [paperclip](https://rubygems.org/gems/paperclip)   | Upload management for ActiveRecord.                       |
+| [pry-byebug](https://rubygems.org/gems/pry-byebug) | A combination of two separate gems, `pry` and `byebug`    |
+| [resque](https://rubygems.org/gems/resque)         | Redis-backed library for creating background jobs.        |
+| [rspec](https://rubygems.org/gems/rspec)           | Behavior-driven development suite.                        |
+| [rubocop](https://rubygems.org/gems/rubocop)       | Linter for Ruby.                                          |
+| [scss_lint](https://rubygems.org/gems/scss_lint)   | Linter for SASS/SCSS.                                     |
 
 The jobs these gems do can range from debugging to testing to integrating into
 an API.
@@ -59,11 +58,11 @@ the Gemfile and run
 
 There are a lot of similarities between Node modules and Ruby gems.
 
-| Node Module | Ruby Gem |
-| :---------: | :------: |
+|        Node Module       |          Ruby Gem         |
+| :----------------------: | :-----------------------: |
 | npm install _moduleName_ | gem install _gem_\__name_ |
-| npm install | bundle install |
-| package.json | Gemfile |
+|        npm install       |       bundle install      |
+|       package.json       |          Gemfile          |
 
 However, there are a couple of differences too. For instance, Node modules
 (except when using the `-g` flag) get installed within a particular project,
@@ -115,5 +114,10 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I researched `httparty` and I believe the best alternative would be `http`  The reason it would be a good choice is because of the following:
+- Over 1000 commits means it has had a lot of updates and contributions
+- Has a wiki with lots of good documentation about how to use the gem
+- Over 4M downloads means a lot of other people are using it
+- The last commit was on March 9 of this year which means its being kept up to date
+- There are 138 closed issues which means issues are being resolved as they come up
 ```
