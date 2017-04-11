@@ -115,5 +115,14 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I choose https://rubygems.org/gems/rspec to see what could be a replacement.
+
+I found https://github.com/robb1e/simple_bdd  which had it's last commit 2 years
+ago, definitely not one I would choose this one.
+
+Then I found https://rubygems.org/gems/bddfire it had a ton of downloads, the last
+update was in Feb. There was only one issue.  It's MIT related and had a spec
+folder with tests. It supports cucumber framework which is used at my company.
+Documentation looks extensive with videos.
+
 ```
