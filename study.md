@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Devise is a good authorization system to use as a base for your authorization system that can then be customized as needed. It is very well tested and is always getting updated. An alternative is called Clearance, which is easier to override the defaults of. It is good if you have basic needs for authorization. It also provides good testing support by signing in as a test user. If we need something lighter weight and want the ability to customize it easily, Clearance would be better than Devise.
 ```
