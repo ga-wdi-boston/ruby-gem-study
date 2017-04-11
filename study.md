@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I chose to research Capybara because, what a great name and website! It's a popular browser integration testing tool that simulates how a user would interact with your application. The Ruby Toolbox lists it as the most popular gem in its category, so I took a look at the runners up. Selenium-webdriver is a close second, with functionality that looks to be similar (assistance with writing automated tests that mimic user behavior). Both products have a long track record (7 years). Selenium has very frequent releases, more than double what Capybara has produced. Selenium has 8 commits made just today with more than a handful daily from many of the same contributors. The project seems to be very well maintained and widely used. If I were to suggest an alternative to Capybara, it would be Selenium. They lose points for not having a lovely little mascot, though. 
 ```
