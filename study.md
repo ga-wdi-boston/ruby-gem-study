@@ -115,5 +115,10 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+[rspec](https://rubygems.org/gems/rspec) | Behavior-driven development suite. |
+
+Alternative: Minitest: https://github.com/seattlerb/minitest
+  Pros: Many downloads, frequent and current updates indicating it is well
+  maintained, all outstanding issues appear to be addressed via comments or are
+  actively being worked, very thoroughly documented
 ```
