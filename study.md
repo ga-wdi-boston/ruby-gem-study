@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I picked the resque gem. I think that the gem Delayed_job https://www.ruby-toolbox.com/projects/delayed_job would be a good alternative because it one of the gems that resque was modeled off of. It takes big files and stores them to be processed in the background so smaller faster files can be loaded first.
 ```
