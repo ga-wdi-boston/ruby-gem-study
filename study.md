@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I decided to check out Rubocop, the Ruby linter that we use in class.  On www.ruby-toolbox.com it says that there is another code tester called reek that checks for "Code Smells".  Code smells are slightly different from the syntax errors and best practice styles that Rubocop enforces, but they are important for the future of any repository.  Reek aims to call out the developer for poor naming and other things that aren't necessarily "wrong" with the code, but that could prove to be a problem in the future.  While reek has fewer downloads than rubocop its goals are admirable and are really forward thinking and it would be a benefit to the company to implement it.
 ```
