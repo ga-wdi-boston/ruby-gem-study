@@ -115,5 +115,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Rspec is a gem that allows developer write a test before starting to write a code.
+Simple BDD is the next best alternative gem. The syntax, it is using, just like English.
+It is easy to used and much easier for a non-developer to write.  
 ```
