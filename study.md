@@ -115,5 +115,18 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Picked gem:  https://rubygems.org/gems/devise (Authentication for Ruby on Rails)
+
+Searched rubygems for keyword 'authentication'
+Alternative gem:  https://rubygems.org/gems/authentication (Authentication)
+
+I would definitely pick the devise gem as this gem has 23,986,857 downloads and
+was last updated on 3/15/2017 with version 4.2.1.  It has a wealth of
+documentation with 154 commits.
+
+The alternative gem was last updated on 3/14/2016 with version 0.0.3 and has
+only 6,195 downloads and only 3 commits.
+
+Picking a gem with a lot of commit history, recent commits and full documentation
+is the way to go!
 ```
