@@ -115,5 +115,11 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I tried to find an alternative to bcrypt. I did find one
+encrypted_string, but for the life of me, can't make
+the argument one way or the other. I did google the question:
+bcrypt vs encrypted_string, then read the first article
+on the list: <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwil6vX4253TAhXHxFQKHe0xBxkQFggmMAA&url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F1561174%2Fsha512-vs-blowfish-and-bcrypt&usg=AFQjCNEo7zmOg9mgNnNZpcc3MSpxWEn5Rw&sig2=rrFXLtwdnyejwaj-Y9M3gA>
+
+My brain is too worn out by project 1.
 ```
