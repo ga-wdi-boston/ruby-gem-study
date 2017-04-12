@@ -115,5 +115,6 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I would definetly say Devise as it will take care of almost all of the Auth and I'm not a fan of that back end stuff! It is able to write many complicated lines of code into just a few lines for auth and is used by facebook and Twitter!
+For the second one I would go with Cancan, the reason I say that to be honest is because I didn't find many others. Cancan also makes it incredibly simple.
 ```
