@@ -115,5 +115,11 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+The two gems: `rubocop` and `ruby-lint`.
+The first gem in the list is `rubocop`; it has 13,022,103 downloads, with
+100,478 downloads on this current version that was updated on January 18th,
+2017. It is a linter for Ruby, so it is very useful for programmers. It has had
+85 versions so far. The second one, `ruby-lint` is an alternative to `rubocop`;
+it has more development dependencies, so it should be a richer gem than the
+latter. The last time it got updated though was in May.
 ```
