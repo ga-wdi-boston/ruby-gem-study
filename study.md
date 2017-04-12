@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+For gen and library inspection, the best gem is OpenGem. But if I had to pick the alternative, it would be Qwandry. This is because qwandry has the second most downloads, has simple steps for using it and short commands, ie qw. Quandry can be used with python, perl and other languages as well. There's only ever been 2 issues opened with Quandry and that was in 2014. Quandry will locate and edit ruby libraries. Quandry is the next best thing compared to OpenGem, which only has about 400 more downloads and it has less issues opened.
 ```
