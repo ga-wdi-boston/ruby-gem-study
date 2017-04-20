@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+HTTParty seems to be the best choice for a RESTful web service client in Ruby,
+but rest-client would work as a good alternative. rest-client has a broader
+overall install base and more recent updates but HTTParty has fewer
+dependencies. HTTParty is also able to handle JSON responses directly, while
+rest-client requires and external JSON module to handle responses.
 ```
