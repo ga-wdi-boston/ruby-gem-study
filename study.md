@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I researched Paperclip and found the alternative CarrierWave. CarrierWave is
+considered by some to be the most mature and full-featured image processing and
+uploading library. It also features the ability to migrate you from Paperclip to
+CarrierWave. CarrierWave is also reported to be more flexible.
 ```
