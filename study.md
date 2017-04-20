@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+If you're looking for alternatives to the Devise gem, it probably means that
+you've been trying to override Devise's conventions too often. Devise is very
+powerful - but because it's so expansive, it sometimes does more than you need
+it to. As stated in the Clearance gem README, it's smaller and more simple.
+It has opinionated defaults, but they're designed to be easily overrided.
 ```
