@@ -115,5 +115,14 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I picked Devise.
+
+I think the best alternative geem is OmniAuth. It is a runner up in terms of the number of commits and ratio of closed to outstanding issues on github. OmniAuth also has an MIT license.
+
+OmniAuth will provide more flexibility and ease of implementation as our app integrates new technologies moving forward.
+
+http://www.rubydoc.info/gems/omniauth/1.3.1
+https://github.com/plataformatec/devise#getting-started
+https://github.com/omniauth/omniauth/wiki
+https://github.com/plataformatec/devise/wiki
 ```
