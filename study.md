@@ -115,5 +115,8 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I looked at Bcrypt because password encryption is something that has interested me
+for a while anyway. I found an alternative gym called scrypt that is claimed to be
+more secure towards hardware brute force attacks and on top of this is still being updated,
+bcrypt hasn't been updated for a year now. 
 ```
