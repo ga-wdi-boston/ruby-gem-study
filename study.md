@@ -115,5 +115,12 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+httparty
+
+The alternative I chose is: rest-open-uri
+
+It supports all standard HTTP methods. It is a widely supported alternative.
+
+It has been accredited my multiple books and credible sources.
+
 ```
