@@ -115,5 +115,4 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
-```
+I researched RuboCop, which seems like the best ruby linter to use. I would not recomend replacing rubocop with anything, but I would suggest additionally installing the gem reek, which does not make stylistic changes, but points out when you have extra parameters, unused paramets, and repetitive code.  Reeks can also be recongfiured, so that some more project particular changes or recomendations can be user or turned off by the reeks linter. Pelusa is also an option, but inferior to rubocop. I also looked into ruby-lint, which was downloaded by lots of people, and licensed by a MIT, but I couldn't personally asertain any more useful information about it. My recomendation is stay with rubocop and add reeks. ```
