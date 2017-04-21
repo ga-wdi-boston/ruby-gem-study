@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I did some research on RSpec and found another tester called Minitest. They are
+both open sourced and very oftenly updated. I think I'd try to use Minitest,
+because of the reviews I read (on reddit, ruby-toolbox e comments on stack
+overflow). Appearentely Minitest is more succint e easy to read and it doesn't
+throw as many errors as RSpec, but also tests the code in very specific ways.
 ```
