@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+At this point, answering these questions is wholly out of my range of knowledge. I was able to find a few gems which have similar functionality to bcrypt, like Strongbox or PBKDF2 (which was made by RSA, an old war horse in cybersec), but all indications point to bcrypt being better. Maybe I bit off a bit more than I can chew in this case.
 ```
