@@ -115,5 +115,10 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+picked authentication: devise.
+
+although devise is the most popular authentication gem, it can be a bit
+heavyweight or have more options than you need.  a more lightweight alternative
+is Clearance.  if you don't need all the features of Devise, it may be a
+good choice.
 ```
