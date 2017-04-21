@@ -115,5 +115,12 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I researched rubocop since that was the one I was most familiar with.  I found
+an alternative called ruby-lint (https://github.com/YorickPeterse/ruby-lint/blob/master/README.md).
+It has a pretty good number of downloads compared to the other ruby linter options
+excluding rubocop, and it's been worked on relatively recently.  Funny enough,
+the developer addresses the question of why one would want to use this as opposed
+to rubocop directly in the readme.  Ruby-lint is more focused on technical problems
+while rubocop focuses more on style issues.  So, depending on your needs, if you are
+mainly interested in debugging rather than style, ruby-lint may be a good option.
 ```
