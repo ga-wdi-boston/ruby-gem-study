@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Gem: Capybara,
+Alternative Gem: Selenium
+Selenium is a good alternative because capybara supports selenium-webdrivers, Javascript, can access HTTP resources out of the application, and can be set up for testing headless mode. Headless mode is useful for continuous intergration scenarious(automated testing), meaning the development team is frequently integrating their work constantly. For example a team of developers working in the financial industry on their equity team they are assigned to create a Global Trading Systems continously adding features that needs to be tested. Developers can write a javascript function, implement the code, and Selenium would auto test the functions and display any errors within the application
+
+http://python-guide-pt-br.readthedocs.io/en/latest/scenarios/ci/
 ```
