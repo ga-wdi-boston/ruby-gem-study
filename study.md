@@ -115,5 +115,15 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I researched the gem 'rubocop'. Out of any other ruby linter analysis tools, I
+believe that this is the best choice. For example, I researched a few alternatives.
+One that came up was the gem 'ruby-lint' which accomplishes the same goal as 'rubocop'.
+However, when deciding which one to choose, a couple of things really stood out to me.
+'rubocop' has millions of downloads, has frequent, updated versions, and has three
+different authors. When you look at the rubocop github, you can see that it has
+professional documentation and frequent commits.
+'ruby-lint' only has 88,000 downloads, is only updated about once
+a year, and only has one author. 'ruby-lint' does appear to be the next best alternative though.
+These reasons justify my decision to choose 'rubocop' as the gem to check my ruby code style.
+
 ```
