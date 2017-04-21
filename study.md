@@ -115,5 +115,13 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I would recommend using the gem 'scrypt' over 'bcrypt'.'scrypt' gem is designed to
+be far more secure than 'bcrypt' gem in definding against "hardware brute-force
+attacks". Looking at their detailed documentation, 'scrypt' gem places high
+importance in security, as the contributors have estimates on the cost of
+cracking the password on a 'scrypt' encrypted file versus that of an alternative
+gem. Also, there have not been updates to bcrypt since a year ago, when the last
+commit was done. On the other hand, 'scrypt' gem had its last update recently,
+a month ago. Since password security is a very important aspect of web
+applications, it's ideal to be using one that is frequently updated.
 ```
