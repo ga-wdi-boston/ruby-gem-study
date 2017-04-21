@@ -115,5 +115,11 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+<!--
+RuboCop is a Ruby static code analyzer that can style code, report problems in your code, and can automatically fix some of the problems in your code for you.
+
+A next best alternative to RuboCop would be ruby-lint, which is a tool used to analyze static code in Ruby. Ruby-lint can detect unused variables, the use of undefined methods and method calls with invalid argument amounts, as well as many other things.
+
+While RuboCop and ruby-lint are very similar, one thing ruby-lint can not be used for is styling your code, but ruby-lint would be the best alternative for analyzing issues/bugs in your code. I do find the feature in RuboCop where the gem can automatically fix problem or errors found in your code automatically most interesting for productivity and time saving though.
+ -->
 ```
