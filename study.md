@@ -43,7 +43,7 @@ an API.
 There are two main ways to install Ruby gems. The first is manually, through the
 command line:
 
-`gem install resque`
+``
 
 This will download and install the gem that you specify.  In this case it's the
 `resque` gem.
@@ -115,5 +115,7 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Resque is use for creating background jobs, putting those jobs in queues, and processing them later.  This allows workers to be distributed between multiple machines.  Resque frontend can tell what workers are doing, what workers are not doing, what queues are being used, what's in those queues, provides general usage stats, and helps track failures.  
+
+
 ```
