@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+Paperclip is a gem that makes it easy to upload attachments. Do not have experience with this gem, but I know that managing file attachments is a struggle for our software developers.
 ```
