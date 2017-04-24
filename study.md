@@ -116,4 +116,16 @@ senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
 <!-- your answer here -->
+I looked into rubocop. It looks as though this is a large collaborative effort
+after doing a quick google searchand finding the git repo https://github.com/bbatsov/rubocop.
+The great thing about this gem is that it's constantly being updated and worked on by
+multiple developers. Some more google searches led to a blog post of an analysis between
+rubocop and another similar gem named reek at https://gillesleblanc.wordpress.com/2013/08/08/reek-vs-rubocop/.
+It goes into great detail about the differences between the two by pointing out that
+rubocop mainly focuses on styling aka the "ruby style guide" and reek's focus on simplicity and
+refactoring. Based on what's provided, it seems as though rubocop does allow for
+more features(which seems to be a bad thing for a novice). However, reek is very
+effective for indicating the "code smells" such as too many parameters and code
+repetition. I think reek would be a great alternative, especially when it comes
+debugging code.
 ```
