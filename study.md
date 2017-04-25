@@ -115,5 +115,15 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+
+Devise is an authentication gem for Ruby on Rails.
+alternatives: clearance and authlogic
+
+authlogic is a popular choice which allows for flexibility in customization. However, Why recreate the wheel when there are so many options already available?
+
+Source:
+http://www.rubydoc.info/github/
+https://ruby.libhunt.com/project/clearance/vs/authlogic
+https://www.quora.com/How-should-I-choose-an-authentication-gem
+
 ```
