@@ -115,5 +115,5 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I picked the Devise gem to look into. Devise handles a bunch of user authenticaiton functionality. It appears to basically set up the user model/controller with a bunch of pre-configured defaults, like enabling user validation through email confirmation, sign-in failsafes (locking account after failed attempts), password reset, etc. I googled rails authentication and it seems like Devise is widely regarded as the best authentication gem. This popularity is reflected in the 25 million downloads. Nothing else comes close. So I would choose Devise, but if I had to choose another, I would probably choose AuthLogic. I read a Quora answer where someone compared AuthLogic to devise. They said it basically did all of the same stuff, and that documentation was on par for both, but he prefers AuthLogic because it makes dealing with cookies easier, and it's more flexible if you want to deviate from the defaults i.e. if you want to authenticate based on username instead of email.
 ```
