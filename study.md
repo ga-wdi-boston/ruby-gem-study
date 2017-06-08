@@ -115,5 +115,12 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I picked the gem rubocop to research. Automatic Ruby code style checking tool.
+Given there are over 17 million downloads already this one is quite popular!
+Using some google research, I couldn't find an easy way to find a viable alternative
+to this gem...especially considering it has 17 million downloads. So I'd have
+to go the 'safe' route and recommend this gem to the senior engineer on the team.
+Anoterh excellent gem on my research and comes in at 20 million is Compass. This
+useful gem  is a Sass-based Stylesheet Framework that streamlines the creation and maintenance of CSS.
+
 ```
