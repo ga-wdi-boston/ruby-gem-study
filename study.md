@@ -115,5 +115,9 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+I took a look at the 'resque' gem. This gem is used for creating/running/queueing background jobs in ruby. resque can run any ruby module or class as a background job.
+
+An alternative gem to resqueue is 'crono'. It has less features than resqueue but may be a better option for developers unfamiliar with ruby as there is less to consider for options.
+
+My choice would be for resqueue - it has decent documentation and can be used longer as its feature set is more robust.
 ```
