@@ -115,5 +115,11 @@ alternative. How might you justify this choice of best alternative gem to a
 senior engineer on your team? Explain this below and submit a pull request.
 
 ```md
-<!-- your answer here -->
+There is a gem that is first listed on rubygems.org when you first search popup
+that automatically brings up a gem named popup. Its looks meh. Mostly because
+there havent been releases to since 2011 and it only has 8k downloads. I would
+feel much better about using magnific-popup-rails. 1 because the last release
+is MUCH more recnet and also because it had 126k downloads. It lookd like a lot
+of people like it. additionaly the same gem "popped up" on multiple different
+sites as being popular->
 ```
